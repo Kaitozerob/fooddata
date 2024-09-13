@@ -1,0 +1,43 @@
+
+.article-card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.article-card mat-card-header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.article-card mat-card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.article-card mat-card-content {
+  padding: 10px;
+}
+
+.article-card mat-card-content p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.article-card mat-card-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-card mat-card-content ul li {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+

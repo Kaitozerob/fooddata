@@ -1,0 +1,19 @@
+<mat-card class="article-card">
+  <mat-card-header>
+    <mat-card-title>{{ food.fdcId }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>Data Type: {{ food.dataType }}</p>
+    <p>Description: {{ food.description }}</p>
+    <p>Publication Date: {{ food.publicationDate }}</p>
+    <p>Food Nutrients: </p>
+    <div *ngFor="let foodNutrient of food.foodNutrients">
+      <ul>
+        <li>Number: {{ foodNutrient.number }}</li>
+        <li>Name: {{ foodNutrient.name }}</li>
+        <li>Amount: {{ foodNutrient.amount }}</li>
+        <li>Unit Name: {{ foodNutrient.unitName }}</li>
+      </ul>
+    </div>
+  </mat-card-content>
+</mat-card>
